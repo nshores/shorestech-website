@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shorestech-website
+  labels:
+    app: shores-website
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: shorestech-website
+  template:
+    metadata:
+      labels:
+        app: shorestech-website
+    spec:
+      containers:
+        - name: shorestech-website
+          image: ghcr.io/nshores/shorestech-website:latest
+          ports:
+            - containerPort: 3000
+          imagePullPolicy: Always

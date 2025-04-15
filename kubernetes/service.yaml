@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: shorestech-service
+spec:
+  selector:
+    app: shorestech-website
+  ports:
+    - port: 80
+      targetPort: 3000
+  type: ClusterIP
