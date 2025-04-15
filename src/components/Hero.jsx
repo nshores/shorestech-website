@@ -16,13 +16,16 @@ const Hero = () => {
                         Transform your infrastructure and accelerate your deployment pipeline with
                         enterprise-grade consulting services.
                     </p>
-                    <motion.button
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
-                    >
-                        Schedule a Consultation
-                    </motion.button>
+                    <a href="#contact">
+                        <motion.button
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                            className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+                        >
+                            Schedule a Consultation
+                        </motion.button>
+                    </a>
+
                 </motion.div>
             </div>
         </div>
