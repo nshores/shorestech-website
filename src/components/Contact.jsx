@@ -31,7 +31,7 @@ const Contact = () => {
                                 <div className="flex items-center">
                                     <EnvelopeIcon className="h-6 w-6 text-blue-600 mr-3" />
                                     <a href="mailto:nshores@shorestech.com" className="text-gray-700 hover:text-blue-600">
-                                        nick@shoresmedia.com
+                                        nshores@shorestech.com
                                     </a>
                                 </div>
                                 <div className="pt-4">
