@@ -24,9 +24,6 @@ const Contact = () => {
                             <div className="space-y-4">
                                 <div className="flex items-center">
                                     <PhoneIcon className="h-6 w-6 text-blue-600 mr-3" />
-                                    <a href="tel:951-283-0861" className="text-gray-700 hover:text-blue-600">
-                                        (951) 283-0861
-                                    </a>
                                 </div>
                                 <div className="flex items-center">
                                     <EnvelopeIcon className="h-6 w-6 text-blue-600 mr-3" />
